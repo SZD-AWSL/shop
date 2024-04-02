@@ -1,10 +1,7 @@
 package main
 
-//https://127.0.0.1:5500/products/0/1
-//p1069
-//docker run -it -p 80:5500 -d web-app:latest go run main.go
-// https://stackoverflow.com/questions/53516405/how-to-run-golang-web-app-on-a-docker-container
 
+ 
 import (
 	"platform/authorization"
 	"platform/http"
