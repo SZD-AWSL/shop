@@ -1,4 +1,4 @@
 $GIT_DIR/sportsstore/*.cer
-#*.key . **/
-#*.[y] . **/
+*.key . **/
+*.[y] . **/
 
