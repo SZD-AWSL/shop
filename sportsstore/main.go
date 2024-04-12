@@ -1,7 +1,7 @@
 package main
 
 //add3
- 
+
 import (
 	"platform/authorization"
 	"platform/http"
@@ -67,6 +67,8 @@ func createPipeline() pipeline.RequestPipeline {
 }
 
 func main() {
+
+ 
     registerServices()
     results, err := services.Call(http.Serve, createPipeline())
     if (err == nil) {
